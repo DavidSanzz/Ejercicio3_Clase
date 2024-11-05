@@ -56,6 +56,7 @@ public class Main {
                     System.out.println("El resultado de la multiplicación es: " + operations.multiplicacion(a, b));
                     menu();
                     break;
+
                 default:
                     System.out.println("Opción no válida");
                     menu();  // Llama nuevamente al menú
