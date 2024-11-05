@@ -56,6 +56,16 @@ public class Main {
                     System.out.println("El resultado de la multiplicación es: " + operations.multiplicacion(a, b));
                     menu();
                     break;
+                case 4:
+                    System.out.println("Seleccionó dividir");
+                    System.out.println("Ingrese el primer número: ");
+                    a = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    b = Integer.parseInt(scanner.nextLine());
+
+                    System.out.println("El resultado de la división es: " + operations.division(a, b));
+                    menu();
+                    break;
                 case 5:
                     System.out.println("Seleccionó salir");
                     break;
