@@ -15,5 +15,9 @@ public class Operations {
     public int division(int a, int b){
         return a / b;
     }
+    
+    public int cuadrado(int a){
+        return a * a;
+    }
 
 }
