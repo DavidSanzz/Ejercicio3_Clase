@@ -35,6 +35,19 @@ public class Main {
                     System.out.println("El resultado de la suma es: " + operations.suma(a, b));
                     menu();
                     break;
+
+                case 2:
+                    System.out.println("Seleccionó restar");
+                    System.out.println("Ingrese el primer número: ");
+                    a = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    b = Integer.parseInt(scanner.nextLine());
+
+                    System.out.println("El resultado de la resta es: " + operations.resta(a, b));
+                    menu();
+                    break;
+
+
                 default:
                     System.out.println("Opción no válida");
                     menu();  // Llama nuevamente al menú
