@@ -46,8 +46,16 @@ public class Main {
                     System.out.println("El resultado de la resta es: " + operations.resta(a, b));
                     menu();
                     break;
+                case 3:
+                    System.out.println("Seleccionó multiplicar");
+                    System.out.println("Ingrese el primer número: ");
+                    a = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    b = Integer.parseInt(scanner.nextLine());
 
-
+                    System.out.println("El resultado de la multiplicación es: " + operations.multiplicacion(a, b));
+                    menu();
+                    break;
                 default:
                     System.out.println("Opción no válida");
                     menu();  // Llama nuevamente al menú
